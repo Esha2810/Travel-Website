@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Homemade+Apple&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body data-barba="wrapper">
+    <header class="nav-header">
+        <h1><a href="../index.html" id="logo">days.</a></h1>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="fashion">  
+        <section class="fashion1 detail-slide">
+            <div class="fashion-text">
+                <h2>Luiza Bubzy</h2>
+                <p> A rising star in the fashion world, Luiza’s collections are celebrated for their rich textures and cultural influences, bridging the gap between haute couture and street style.</p>
+            </div>
+            <div class="fashion-img">
+                <img src="../fashion-img1.png" alt="">
+            </div>
+            <div class="fashion-nr"><span>01</span></div>
+        </section>
+        <section class="fashion2 detail-slide">
+            <div class="fashion-text">
+                <h2>Celeste Monroe</h2>
+                <p>A fashion icon with a taste for glamour, Celeste is revered for her couture gowns and is a favorite among top celebrities for red carpet events, embodying elegance and sophistication.</p>
+            </div>
+            <div class="fashion-img">
+                <img src="../fashion-img2.png" alt="">
+            </div>
+            <div class="fashion-nr"><span>02</span></div>
+        </section>
+        <section class="fashion3 detail-slide">
+            <div class="fashion-text">
+                <h2>Ariana Blake</h2>
+                <p>Known for her minimalist, bold style, Ariana has taken the fashion world by storm with her innovative yet timeless designs, blending classic tailoring with modern flair.</p>
+            </div>
+            <div class="fashion-img">
+                <img src="../fashion-img3.png" alt="">
+            </div>
+            <div class="fashion-nr"><span>03</span></div>
+        </section>
+    </main>
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <h3>Twitter</h3>
+            <h3>YouTube</h3>
+            <h3>Instagram</h3>
+        </ul>
+        <div class="contact">
+            <h2>Stay in touch.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, recusandae pariatur officiis earum a natus, molestiae necessitatibus quod sapiente magnam quas. Adipisci, libero cupiditate asperiores molestias dolore cumque aut illo.</p>
+        </div>
+    </nav> 
+    <div class="cursor">
+        <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollMagic Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+    <!-- ScrollMagic GSAP Plugin (optional if you're syncing with timelines) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+
+    <!-- ScrollMagic Debug (optional, for visual indicators) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Homemade+Apple&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body data-barba="wrapper">
+    <header class="nav-header">
+        <h1><a href="./index.html" id="logo">days.</a></h1>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+        <section class="mountain slide">
+            <div class="hero-img">
+                <img src="./forest.png" alt="forest image">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Freedom at your <span class="mountain-span">fingertips.</span></h2>
+                    <div class="title-swipe t-swipe1"></div>
+                </div>
+                <p>From serene beaches to bustling cities, snow-capped mountains to hidden cultural gems — every place has a story to tell. Dive into our curated list of destinations to find your next adventure, inspiration, or escape. Your journey starts here. ✈️🏔️🌆🌴</p>
+                <a class="explore mountain-expo">Explore</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+        <section class="hike slide">
+            <div class="hero-img">
+                <img src="./hike.png" alt="hike image">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Adventures In  <span class="hike-span">Every Story.</span></h2>
+                    <div class="title-swipe t-swipe2"></div>
+                </div>
+                <p>From thrilling escapades to hidden gems, these stories capture the magic of every journey. Get ready to explore the world through exciting tales, and unforgettable moments! Let’s dive in!✈️✨
+                <br>Every page is a new adventure waiting to unfold — let’s make memories together!</p>
+                <a class="explore hike-expo">Explore</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+        <section class="fashion slide">
+            <div class="hero-img">
+                <img src="./fashion.png" alt="fashion image">
+                <div class="reveal-img"></div>
+            </div>
+            <div class="hero-desc">
+                <div class="title">
+                    <h2>Fashion For Every <span class="fashion-span">Destination.</span></h2>
+                    <div class="title-swipe t-swipe3"></div>
+                </div>
+                <p>Where fashion meets every destination. From beachside boho vibes to chic city looks, this page is your passport to travel-inspired style. Whether you're packing light or dressing bold, let's explore the world—one outfit at a time. 🌍👗✈️</p>
+                <a href="./Fashion/index.html" class="explore fashion-expo">Explore</a>
+                <div class="reveal-text"></div>
+            </div>
+        </section>
+    </main>
+
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <h3>Twitter</h3>
+            <h3>YouTube</h3>
+            <h3>Instagram</h3>
+        </ul>
+        <div class="contact">
+            <h2>Stay in touch.</h2>
+            <p>The journey doesn’t end here — it goes online! 🌍 Follow us on Twitter for travel updates, YouTube for vlogs and guides, and across our socials for snapshots of adventures around the world. Join us and explore one post, one reel, and one destination at a time! ✈️📱✨</p>
+        </div>
+    </nav> 
+    <div class="cursor">
+        <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- ScrollMagic Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
+    <!-- ScrollMagic GSAP Plugin (optional if you're syncing with timelines) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+
+    <!-- ScrollMagic Debug (optional, for visual indicators) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+</html>
